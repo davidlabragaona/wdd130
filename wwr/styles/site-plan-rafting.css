@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefina+sans');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif');
 @import url('https://fonts.googleapis.com/css2?family=Bangers');
 
 :root {
@@ -8,7 +8,7 @@
     --accent2-color: #E56B6F;
 
     --heading-font: 'Bangers', serif;
-    --paragraph-font: 'Josefina sans', serif;
+    --paragraph-font: 'Instrument Serif', serif;
 
     --nav-background-color: #EAAC8B;
     --nav-link-color: #B56576;
