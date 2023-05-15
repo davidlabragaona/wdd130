@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif');
+@import url('https://fonts.googleapis.com/css2?family=Bangers');
+
+:root {
+    --primary-color: #355070;
+    --secondary-color: #6D597A;
+    --accent1-color: #EAAC8B;
+    --accent2-color: #E56B6F;
+
+    --heading-font: 'Bangers', serif;
+    --paragraph-font: 'Instrument Serif', serif;
+
+    --nav-background-color: #EAAC8B;
+    --nav-link-color: #B56576;
+    --nav-hover-link-color: #355070;
+    --nav-hover-background-color: #EAAC8B;
+}
+
+* {
+    width: 960px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero article {
+    position: absolute;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.sociallinks img {
+    width: 24px;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
