@@ -27,16 +27,38 @@
 
 .hero {
     position: relative;
+    height: auto;
+    width: 100%;
 }
 
 .hero h1 {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 40px;
+    color: white;
 }
 
 .hero article {
     position: absolute;
+    color: white;
+    background-color: rgba(30, 82, 141, 0.5);
+    padding: 1rem;
+    margin: 2rem;
+    top: 10%;
+    left: 0;
+    width: 90%;
+}
+
+.hero .img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.happy {
+    float: right;
+    width: 200px;
+    height: auto;
 }
 
 header {
@@ -62,4 +84,5 @@ nav a {
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
+    font-family: var(--heading-font);
 }
