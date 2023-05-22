@@ -21,7 +21,7 @@
 }
 
 .logo {
-    width: 200px;
+    width: 100px;
     height: auto;
 }
 
@@ -64,6 +64,10 @@
 header {
     margin: 0;
     padding: 0;
+    display: grid;
+    align-content: space-around;
+    grid-template-columns: 1fr 1fr;
+    align-content: space-around;
 }
 
 p {
@@ -73,6 +77,15 @@ p {
 
 .sociallinks img {
     width: 24px;
+}
+
+nav {
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;;
+    align-items: center;
 }
 
 nav a {
