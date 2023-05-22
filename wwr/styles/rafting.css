@@ -121,3 +121,14 @@ h1, h2, h3, h4, h5, h6 {
 .adventures-container img {
     width: 100%;
 }
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
