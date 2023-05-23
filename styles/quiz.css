@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Merriweather');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+}
+
+h1 {
+    font-family: 'Monofett';
+    margin: 1rem;
+    font-size: 2.5em;
+    color: teal;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #f3f3f3;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 0px;
+}
+
+label, input, button, select, textarea {
+    font-family: Merriweather;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+    font-size: 0.95rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(0, 72, 139);
+}
+
+ol {
+    display: grid;
+    align-items: center;
+    counter-reset: 0;
+}
+
+li {
+    display: list-item;
+    display: grid list-item;
+    list-style-position: inside;
+    margin: 1rem 0;
+}
+
+::marker {
+    color: navy;
+}
+
+.css-code {
+    background-color: #333;
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    padding: 1rem;
+    font-size:small;
+}

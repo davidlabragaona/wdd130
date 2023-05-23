@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta content="viewport" content="width=decive-width, initial-scale=1">
+        <title>WDD 130 | Quiz Form</title>
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1>Basic HTML and CSS Quiz</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <ol class="column1">
+                        <li>
+                            <label for="q1">What characters are used for comments in CSS?</label>
+                            <input type="text" id="q1" name="q1">
+                        </li>
+                        <li>
+                            <label for="q2">Please give an example on how to apply the same rule for different html elements</label>
+                            <textarea id="q2" name="q2" rows="4"></textarea>
+                        </li>
+                        <li>
+                            <label for="q3">In a CSS file, what character is used for classes?</label>
+                            <select id="q3" name="q3">
+                                <option value="" selected disabled>Choose one...</option>
+                                <option value="*">*</option>
+                                <option value=",">,</option>
+                                <option value=".">.</option>
+                                <option value="$">$</option>
+                                <option value=">">></option>
+                                <option value="/">/</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="q4">What is the bottom margin givven this declaration?</label>
+                            <div class="css-code">margin: 10px 5px 15px</div>
+                            <input type="number" id="q4" name="q4">
+                        </li>
+                    </ol>
+                </fieldset>
+                <button type="submit">Submit Quiz</button>
+            </form>
+        </main>
+    </body>
+</html>
