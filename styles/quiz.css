@@ -76,12 +76,10 @@ button:hover {
 ol {
     display: grid;
     align-items: center;
-    counter-reset: 0;
 }
 
 li {
     display: list-item;
-    display: grid list-item;
     list-style-position: inside;
     margin: 1rem 0;
 }
