@@ -16,13 +16,13 @@
     --nav-hover-background-color: #EAAC8B;
 }
 
-body {
-    max-width: 840px;
+* {
+    border: 1px solid gray;
 }
 
-.logo {
-    width: 100px;
-    height: auto;
+body {
+    margin: 0 auto;
+    max-width: 840px;
 }
 
 .hero {
@@ -64,9 +64,34 @@ body {
 header {
     display: grid;
     padding: 0;
-    grid-template-columns: 200px 2fr;
+    grid-template-columns: 1fr 4fr;
     align-items: center;
     width: 100%;
+}
+
+.logo {
+    display: flex;
+    width: 100px;
+    grid-row: 1;
+    grid-column: 1;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30%;
+}
+
+nav {
+    display: flex;
+    grid-row: 1;
+    grid-column: 2 / 4;
+    justify-content: space-evenly;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
 }
 
 p {
@@ -78,22 +103,11 @@ p {
     width: 24px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-}
-
 h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
     font-family: var(--heading-font);
     align-items: center;
+    padding: 2em 2em 1em 1em;
 }
 
 .history-container {
@@ -163,4 +177,9 @@ fieldset input[type="radio"] {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Google Map */
+iframe {
+    margin: 1em;
 }
