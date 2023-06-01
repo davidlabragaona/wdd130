@@ -23,7 +23,8 @@
     padding: 0;
     box-sizing: border-box;
     /* For design-debug purposes */
-    /* border: 1px solid gray; */
+     /*border: 1px solid gray;
+     filter: grayscale(100%);*/
 }
 
 
@@ -104,7 +105,7 @@ nav a {
 }
 
 p {
-    margin: 1rem;
+    margin: 1em;
     padding: 0;
     text-align: justify;
 }
@@ -211,4 +212,54 @@ iframe {
 .col-span {
     display: grid;
     grid-column: 1 / 4;
+}
+
+
+/* Trips */
+.trips-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    gap: 1%;
+}
+
+.trips-item {
+    width: 49%;
+    transition:
+        background-color 1s ease;
+}
+
+.trips-item:hover {
+    background-color: var(--accent1-color);
+}
+
+.trips-item img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2% 10%;
+    font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+main section:nth-child(odd) {
+    background-color: #eee;
 }
