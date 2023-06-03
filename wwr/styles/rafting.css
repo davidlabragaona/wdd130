@@ -30,8 +30,8 @@
 
 body {
     margin: 0 auto;
-    max-width: 840px;
-    border: 1px solid var(--accent2-color);
+    max-width: 1024px;
+    /*border: 1px solid var(--accent2-color);*/ 
 }
 
 .hero {
@@ -42,9 +42,10 @@ body {
 
 .hero h1 {
     position: absolute;
-    top: 0;
-    left: 40px;
+    top: -10px;
     color: white;
+    font-size: 5rem;
+    margin: 0 auto;
 }
 
 .hero article {
@@ -262,4 +263,25 @@ th {
 
 main section:nth-child(odd) {
     background-color: #eee;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.testimonials-item {
+    grid-column: span 1;
+}
+
+.testimonials-item img {
+    width: 100%;
+}
+
+.engage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
