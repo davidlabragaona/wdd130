@@ -133,8 +133,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 95%;
 }
 
-.history-container img ~ p{
-    width: 95%;
+.history-container img{
+    width: 100%;
 }
 
 .adventures-container {
@@ -150,6 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 .adventures-container img {
     width: 100%;
 }
+
 
 footer {
     display: grid;
