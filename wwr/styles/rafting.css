@@ -272,10 +272,6 @@ th {
     background-color: #f2f2f2;
 }
 
-main section:nth-child(even) {
-    /*background-color: #eee;*/
-}
-
 main {
     padding-bottom: 2rem;
 }
