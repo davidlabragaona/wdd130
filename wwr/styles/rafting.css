@@ -51,7 +51,7 @@ main {
     margin: 0 auto;
 }
 
-.hero h2 {
+.heading {
     position: absolute;
     top: 160px;
     left: 50px;
